@@ -1,0 +1,15 @@
+# 1. Bỏ qua tất cả các thư mục rác, cache, build của toàn bộ dự án con
+.gradle/
+.idea/
+build/
+out/
+gradle/
+
+# 2. Bỏ qua toàn bộ các file cấu hình Gradle (Vì sếp yêu cầu CHỈ GIỮ LẠI src)
+*.gradle
+gradlew
+gradlew.bat
+*.iml
+
+# 3. Chỉ cho phép các thư mục src và file .gitignore tổng này được lên Git
+!.gitignore
